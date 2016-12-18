@@ -1,0 +1,28 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "Default template for fis scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fis-scaffold/default.git"
+  },
+  "keywords": [
+    "fis",
+    "scaffold"
+  ],
+  "author": "fex",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fis-scaffold/default/issues"
+  },
+  "homepage": "https://github.com/fis-scaffold/default",
+  "dependencies": {},
+  "devDependencies": {
+    "fis-optimizer-png-compressor": "^0.1.6",
+    "fis3-hook-relative": "^1.0.9"
+  }
+}

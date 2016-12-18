@@ -1,0 +1,212 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Roboto', "microsoft yahei";
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+em, i {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+input {
+  outline: none;
+  -webkit-outline: none;
+}
+
+
+body{
+  background: #090C13 url(../images/bg@2x.png) no-repeat;
+  background-size: 100% auto;
+  margin:0 auto;
+  font-size: 1.066rem;
+}
+
+.wrap-title{
+  font-size: 1.066rem;
+  color: #BF9A77;
+}
+
+.banner-wrap-inner{
+  padding:0 1.066rem;
+  .img-wrap{
+    margin-top:0.66rem;
+  }
+}
+
+.img-wrap img{
+  width: 100%;
+}
+
+.wrapper, .footer{
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.title{
+  width: 14.6rem;
+  height: 9.466rem;
+  padding-top: 10.333rem;
+  padding-left: 5.533rem;
+}
+
+.video-wrap{
+  width: 23.7333rem;
+  height: 16.066rem;
+  margin-left: 0.466rem;
+  margin-top: -2.2rem;
+  position: relative;
+  #mod_player{
+    width:20.6rem;
+    height: 13.066rem;
+    position: absolute;
+    top: 1.6rem;
+    left: 1.6rem;
+    display:none;
+  }
+}
+
+.button-wrap{
+  margin-top: 0.133rem;
+  margin-left: 1.533rem;
+}
+
+.btn-integral, .btn-buy_tick{
+  width: 10.2rem;
+  height: 4rem;
+  display:inline-block;
+}
+
+.btn-buy_tick{
+  // margin-left: 1.333rem;
+  position: relative;
+  left:50%;
+  margin-left:-6rem;
+}
+
+.novel-wrap{
+  margin-top: 3.333rem;
+}
+
+.skin-wrap{
+  margin-top: 2.666rem;
+}
+
+.android-img, .iPhone-img{
+  width: 47%;
+  height: 6.133rem;
+  display:inline-block;
+}
+
+.iPhone-img{
+  margin-left: 0.6rem;
+}
+
+.game-wrap{
+  margin-top: 2.666rem;
+}
+
+.btn-reservation-wrap{
+  margin-top: 1rem;
+  position: relative;
+  p{
+    font-size: 0.8rem;
+    color: #BF9A77;
+    margin-top: 0.466rem;
+  }
+  a.img-wrap{
+    margin-top: 0;
+  }
+}
+
+.btn-reservation{
+  width: 4.466rem;
+  height: 2.066rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.tv-wrap{
+  margin-top: 2.533rem;
+}
+
+.huati-wrap{
+  margin-top: 2.066rem;
+}
+
+.footer{
+  height: 8.333rem;
+  background: url(../images/end@2x.png) no-repeat;
+  background-size: 100% auto;
+  background-position: bottom;
+  .copyright{
+    width: 17.4rem;
+    height: 0.933rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -8.7rem;
+  }
+}
+
